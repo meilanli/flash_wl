@@ -17,7 +17,7 @@ flash磨损平衡 wear-leveling
 	3,保存数据flash_wl_write()
 	4,读出最后一次保存的数据flash_wl_read()
 
-## 数据存取
+## 存取原理
 	存储格式 data0 ... dataN [4字节补位] 55 LenH LenL AA
 	初始从有效flash段末尾倒序查找 标志AA
 	获取长度，提取数据
